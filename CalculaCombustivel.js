@@ -9,13 +9,13 @@ Você terá 05 variáveis, sendo elas :
 Imprima no console o valor que será gasto de combustivel para realizar essa viagem.
 */
 
-const precoEtanol = 4;
-const precoGasolina = 6;
-const mediaKmPorLitro = 15;
-const distanciaDaViagem = 100;
-const tipoCombustivel = 'Gasolina';
-const gastoViagemEtanol = (distanciaDaViagem / mediaKmPorLitro) * precoEtanol;
-const gastoViagemGasolina = (distanciaDaViagem / mediaKmPorLitro) * precoGasolina;
+let precoEtanol = 4;
+let precoGasolina = 6;
+let mediaKmPorLitro = 15;
+let distanciaDaViagem = 100;
+let tipoCombustivel = 'Gasolina';
+let gastoViagemEtanol = (distanciaDaViagem / mediaKmPorLitro) * precoEtanol;
+let gastoViagemGasolina = (distanciaDaViagem / mediaKmPorLitro) * precoGasolina;
 
 if(tipoCombustivel === 'Etanol') {
     console.log('O gasto dessa viagem com etanol será de: R$ ' + gastoViagemEtanol.toFixed(2));
